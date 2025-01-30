@@ -90,7 +90,7 @@ export async function pdf(
     cMapPacked: true,
     ...options.docInitParams,
     isEvalSupported: false,
-    canvasFactory,
+    //canvasFactory,
     data,
   }).promise;
 
