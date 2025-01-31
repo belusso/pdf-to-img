@@ -9,7 +9,7 @@
 📃📸 Converts PDFs to images in nodejs.
 
 Useful for unit tests of PDFs
-
+ 
 Supports nodejs v18+, and comes with a CLI.
 
 ## Install
