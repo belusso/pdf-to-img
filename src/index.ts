@@ -12,7 +12,7 @@ const pdfjsPath = path.dirname(
   createRequire(import.meta.url).resolve("pdfjs-dist/package.json")
 );
 
-/** required since k-yle/pdf-to-img#58, the objects from pdfjs are weirdly structured */
+/** required since ddk-yle/pdf-to-img#58, the objects from pdfjs are weirdly structured */
 const sanitize = (x: object) => {
   const object: Record<string, string> = JSON.parse(JSON.stringify(x));
 
