@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
-    "module": "CommonJS",
     "strict": true,
     "esModuleInterop": true,
     "lib": [
       "es2021"
     ],
     "skipLibCheck": true,
-    "target": "es2022",
+    "module": "node16",
+    "target": "es2020",
+    "moduleResolution": "node16",
     "downlevelIteration": true,
     "declaration": true,
     "outDir": "temp"
