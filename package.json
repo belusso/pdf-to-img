@@ -36,13 +36,13 @@
   "engineStrict": true,
   "dependencies": {
     "canvas": "^3.1.0",
-    "pdfjs-dist": "4.3.136"
+    "pdfjs-dist": "4.10.38"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.5.1",
     "@types/jest-image-snapshot": "^6.2.1",
     "@types/node": "^20.8.6",
-    "@types/pdfjs-dist": "2.10.377",
+    "@types/pdfjs-dist": "2.10.378",
     "@vitest/coverage-v8": "^1.6.0",
     "eslint": "^8.50.0",
     "eslint-config-kyle": "^14.12.3",
