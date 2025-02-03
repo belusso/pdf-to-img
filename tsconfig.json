@@ -1,15 +1,19 @@
 {
   "compilerOptions": {
+    "module": "CommonJS",
     "strict": true,
     "esModuleInterop": true,
-    "lib": ["es2021"],
+    "lib": [
+      "es2021"
+    ],
     "skipLibCheck": true,
-    "module": "node16",
-    "target": "es2020",
-    "moduleResolution": "node16",
+    "target": "es2022",
     "downlevelIteration": true,
     "declaration": true,
     "outDir": "temp"
   },
-  "include": ["src", "tests"]
+  "include": [
+    "src",
+    "tests"
+  ]
 }

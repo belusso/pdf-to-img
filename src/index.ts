@@ -9,7 +9,7 @@ import { NodeCanvasFactory } from "./canvasFactory.js";
 import { parseInput } from "./parseInput.js";
 
 const pdfjsPath = path.dirname(
-  createRequire(import.meta.url).resolve("pdfjs-dist/package.json")
+  createRequire(__dirname).resolve("pdfjs-dist/package.json")
 );
 
 /** required since ddk-yle/pdf-to-img#58, the objects from pdfjs are weirdly structured */
